@@ -1,0 +1,113 @@
+.hero-section {
+    background: url(./assets/images/hero4.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    margin-top: -5rem;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contents p {
+    color: white;
+    font-size: 33px;
+    font-weight: 600;
+    letter-spacing: -.02em;
+    line-height: 40px;
+}
+
+.navbar {
+    padding: 1rem 2rem;
+    margin-top: -0.5rem;
+    background: rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.nav-logout.active{
+    color:white !important;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: rgb(63, 143, 63) !important;
+    cursor: pointer;
+}
+
+.active{
+    color:rgb(63, 143, 63) !important;
+}
+
+.join {
+    background-color: white;
+    color: black !important;
+    padding: 0.7rem 1rem;
+    font-weight: 500;
+    border: none;
+}
+
+.join:hover {
+    color: white !important;
+}
+
+.searchBtn {
+    padding: 11px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+.logo {
+    height: 40px;
+    margin-right: 1rem;
+}
+
+.imageSection {
+    margin: 2rem 1rem 1rem 2rem;
+}
+
+.imageSection p {
+    font-weight: 400;
+}
+
+.card {
+    position: relative;
+}
+
+.card .card-info {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    padding: 10px;
+}
+
+.card:hover .card-info {
+    display: block;
+}
+
+.infos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card img {
+    height: 28rem;
+}
+
+.searchBar{
+    display:none;
+}
